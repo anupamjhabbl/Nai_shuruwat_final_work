@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Footer from './components/footer/footer.js';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
+        <Footer/>
       </header>
     </div>
   );
