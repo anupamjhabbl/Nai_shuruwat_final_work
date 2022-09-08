@@ -1,0 +1,47 @@
+.social{
+    margin-left:0px;
+    position: fixed;
+    top:40%;
+}
+
+.socialbox{
+    padding-top:10px;
+    width:150px;
+    height:40px;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    font-family:cursive,'Courier New', Courier, monospace;
+    font-size: large;
+    color:white;
+    width:55px;
+    border-radius:2px;
+    
+}
+.socialbox>a>span{
+    margin-left:16px;
+    font-size:large;
+    opacity:0;
+    
+}
+
+.socialbox:hover{
+    width:150px;
+    
+}
+
+.socialbox:hover a span{
+    opacity:10;
+}
+
+.socialbox>a>i{
+    margin-left:18px;
+    font-size: larger;
+    font-weight:600;
+}
+
+.socialbox>a{
+    color:white;
+    text-decoration: none;
+}
+
+
