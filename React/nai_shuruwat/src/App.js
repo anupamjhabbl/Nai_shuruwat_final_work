@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Footer from './components/footer/footer.js';
 import Social from './components/social media/Social.js'
+import Volunteer_form from './components/volunteer_form/volunteer_form.js'
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -9,8 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <Footer/>
-        <Social/>
+        {/* <Footer/> */}
+        <Volunteer_form/>
+        {/* <Social/> */}
       </header>
     </div>
   );

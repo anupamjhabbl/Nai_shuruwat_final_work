@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <section id="footer">
         <h2 id="awkward">Our team is here to help</h2>
-        <div class="section">
+        <div className="section">
             <Infobox 
             name="JEEVESH "
             desc="If you want to know in which areas we are active and any type of area related information you can call him"
