@@ -4,7 +4,7 @@ import './footer.css';
 export default function Infobox(props) {
   return (
     <>
-    <div class="first">
+    <div className="first">
       <h3>{props.specialisation}</h3>
       {/* <img src="IMG-20211217-WA0002.jpg" alt=""> */}
       <h4>{props.name}</h4>
