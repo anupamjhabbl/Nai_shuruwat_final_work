@@ -1,7 +1,7 @@
 import React from 'react'
 import './volunteer_form.css';
-import Navbar from '../Navbar.js';
-import logo from './Logo For IWT 1 cropped.jpg';
+
+import logo from '../Logo For IWT 1 cropped.jpg';
 export default function Volunteer_form() {
   return (
     <>
@@ -168,7 +168,7 @@ export default function Volunteer_form() {
                     <textarea id="why" name= "experience" rows="10" cols="80"></textarea>
                 </div>
                 {/* <input type="submit" value="Submit"/> */}
-                <button>Submit</button>
+                <button className='volunteer_submit'>Submit</button>
 
             </div>
         </div>

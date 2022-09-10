@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        {/* <Footer/> */}
+        <Social/> 
         <Volunteer_form/>
-        {/* <Social/> */}
+        <Footer/>
       </header>
     </div>
   );
