@@ -21,7 +21,6 @@ footer{
 .sec1{
     
     display:flex ;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding-left:10px;
