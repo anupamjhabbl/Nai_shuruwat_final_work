@@ -1,0 +1,67 @@
+#helpform{
+    max-width:500px;
+    background-color:black;
+    color:white;
+    margin:auto;
+    margin-top:160px;
+    margin-bottom:90px;
+    padding:50px;
+}
+
+.input_help{
+    width:340px;
+    margin-bottom:6px;
+    border:1px solid black;
+    height:27px;
+    padding:1px;
+    border-radius:6px;
+    width:200px;
+    outline:0px;
+    font-family: 'Comfortaa', cursive;
+    font-size:16px;
+    padding-left: 12px;
+    font-weight: 800;
+}
+
+.label_help{
+    font-family: 'Comfortaa', cursive;
+    display:block;
+    font-weight: 400;
+    margin-top:5px;
+}
+
+input[type="email"]{
+    width:483px;
+}
+
+.phone_no{
+    width:483px;
+}
+
+#text{
+    width:483px;
+}
+
+.name{
+    display:flex;
+    justify-content:space-between;
+}
+
+.help_submit{
+    display:block;
+    width:130px;
+    height:36px;
+    background-color:blue;
+    color:white;
+    border-radius:6px;
+    margin:auto;
+    margin-top:20px;
+    outline:0px;
+    font-size: larger;
+    box-shadow: 2px 2px 9px rgb(68, 68, 122);
+}
+
+.help_submit:hover{
+    box-shadow: -1px -1px 6px rgb(68, 68, 122);
+}
+
