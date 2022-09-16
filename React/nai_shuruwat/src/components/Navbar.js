@@ -1,4 +1,5 @@
 import React from "react";
+import{Link} from "react-router-dom";
 import './Navbar.css';
 import Logo  from './Logo For IWT 1 cropped.jpg';
 function Navbar() {
@@ -9,13 +10,13 @@ function Navbar() {
                     <p>Nai shurwat</p>
                 </div>
                 <ul id="navlinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About Us">About Us</a></li>
-                    <li><a href="World_Reach.html">Our Reach</a></li>
-                    <li><a href="volunteer_form.html">Join Us</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                    <li><a href="faq (2).html">Questions</a></li>
-                    <li><a href="help.html">Help</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to ="/about">About Us</Link></li>
+                    <li><Link to ="/reach">Our Reach</Link></li>
+                    <li><Link to="/Volunteer">Join Us</Link></li>
+                    <li><Link to ="/Donate">Donate</Link></li>
+                    <li><Link to ="/faq">Questions</Link></li>
+                    <li><Link to ="/Help">Help</Link></li>
   
                 </ul>
           </div>
