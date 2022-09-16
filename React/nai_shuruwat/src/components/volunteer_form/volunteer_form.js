@@ -37,7 +37,7 @@ export default function Volunteer_form() {
                 </div>
                 <div>
                     <label htmlFor="gender">Gender*:</label>
-                    Male <input type="radio" id="gender" name="gender" checked/> &nbsp; Female <input type="radio" id="gender" name="gender"/ > &nbsp; Other <input type="radio" id="gender" name="gender" />
+                    Male <input type="radio" id="gender" name="gender"/> &nbsp; Female <input type="radio" id="gender" name="gender"/ > &nbsp; Other <input type="radio" id="gender" name="gender" />
 
                 </div>
                 <div>
@@ -123,19 +123,19 @@ export default function Volunteer_form() {
                     </div>
                     <div>
                         <b>Available</b><br/>
-                        <input name="Interested for"  id="Morning"  type="radio"/> 
+                        <input name="Available at"  id="Morning"  type="radio"/> 
                         <label htmlFor="Morning" >Morning</label><br/>
                     
-                        <input name="Interested for" id="Weekends" type="radio"/> 
+                        <input name="Available at" id="Weekends" type="radio"/> 
                         <label htmlFor="Weekends">Weekends</label><br/>
                     
-                        <input name="Interested for" id="Week Days" type="radio"/> 
+                        <input name="Available at" id="Week Days" type="radio"/> 
                         <label htmlFor="Week Days">Week Days</label><br/>
     
-                        <input name="Interested for" id="Afternoon" type="radio"/> 
+                        <input name="Available at" id="Afternoon" type="radio"/> 
                         <label htmlFor="Afternoon">Afternoon</label><br/>
     
-                        <input name="Interested for" id="Evening" type="radio"/> 
+                        <input name="Available at" id="Evening" type="radio"/> 
                         <label htmlFor="Evening">Eveniing</label><br/>
     
                     </div>
@@ -145,19 +145,19 @@ export default function Volunteer_form() {
                 <br/>
                 <div>
                     <b>Interested in Volunteering for</b><br/>
-                    <input name="Interested for"  id="School Activities"  type="checkbox"/> 
+                    <input name="Interested for"  id="School Activities"  type="radio"/> 
                     <label htmlFor="School Activities" >School Activities</label><br/>
                 
-                    <input name="Interested for" id="Religious Education" type="checkbox"/> 
+                    <input name="Interested for" id="Religious Education" type="radio"/> 
                     <label htmlFor="Religious Education">Religious Education</label><br/>
                 
-                    <input name="Interested for" id="Youth Ministery" type="checkbox"/> 
+                    <input name="Interested for" id="Youth Ministery" type="radio"/> 
                     <label htmlFor="Youth Ministery">Youth Ministery</label><br/>
 
-                    <input name="Interested for" id="Coaching" type="checkbox"/> 
+                    <input name="Interested for" id="Coaching" type="radio"/> 
                     <label htmlFor="Coaching">Coaching</label><br/>
 
-                    <input name="Interested for" id="Others for" type="checkbox"/> 
+                    <input name="Interested for" id="Others for" type="radio"/> 
                     <label htmlFor="Others for">Others</label><br/>
                 </div>
                 
