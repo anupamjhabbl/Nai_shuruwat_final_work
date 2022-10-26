@@ -5,8 +5,6 @@ import "./Donate.css";
 export default function Donate() {
   return (
    <div className='Donatebody'>
-
-    
     
     <div  className="formbox">  
         <h2>Money Donation Form</h2>
