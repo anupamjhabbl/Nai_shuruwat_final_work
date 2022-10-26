@@ -15,7 +15,7 @@ function Navbar() {
                     <li><Link to ="/reach">Our Reach</Link></li>
                     <li><Link to="/Volunteer">Join Us</Link></li>
                     <li><Link to ="/Donate">Donate</Link></li>
-                    <li><Link to ="/faq">Questions</Link></li>
+                    <li><Link to ="/Questions">Questions</Link></li>
                     <li><Link to ="/Help">Help</Link></li>
   
                 </ul>

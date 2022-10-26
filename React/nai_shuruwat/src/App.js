@@ -6,6 +6,7 @@ import Help from './components/Help/Help.js';
 import Donate from './components/donate/Donate.js';
 import {Error} from './components/error/Error.js';
 import {Main} from './components/main/main.js';
+import {Question} from './components/question/Question.js';
 
 import{
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/Volunteer" element={<Volunteer_form/>}/>
             <Route exact path="/Help" element={<Help/>}/>
             <Route exact path="/Donate" element={<Donate/>}/>
+            <Route exact path="/Questions" element={<Question/>}/>
             <Route  element={<Error/>}/>
           </Routes>
           
