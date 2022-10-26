@@ -16,33 +16,33 @@ export default function Donate() {
             <div className="sec">
                 <div>
                     <label htmlFor="FirstName" >First Name*:</label>
-                    <input  class="input_donate"  id="Firstname" placeholder="First Name"/>
+                    <input  className="input_donate"  id="Firstname" placeholder="First Name"/>
                 </div>
                 <div> 
                     <label htmlFor="LastName" >Last Name*:</label>
-                    <input class="input_donate"  required id="LastName"  name="Last Name" type="text" placeholder="Last Name"/>
+                    <input className="input_donate"  required id="LastName"  name="Last Name" type="text" placeholder="Last Name"/>
                 </div>
 
             </div>
             <div className="sec">
                 <div>
                     <label htmlFor="phonenumber" >Phone Number*:</label>
-                    <input class="input_donate"  required  id="phonenumber1" name="phone number1" type="number" placeholder="xxxxxxxxxx" />
+                    <input className="input_donate"  required  id="phonenumber1" name="phone number1" type="number" placeholder="xxxxxxxxxx" />
                            
                 </div>
                 <div>
                     <label htmlFor="email">Email:</label>
-                    <input  class="input_donate" id="email" name="email" type="email" />
+                    <input  className="input_donate" id="email" name="email" type="email" />
                 </div>
             </div>
             <div className="sec">
                 <div>
                     <label htmlFor="city"  >City*:</label>
-                    <input class="input_donate"  required id="city" name="city" type="text" placeholder="Enter your City"/>
+                    <input className="input_donate"  required id="city" name="city" type="text" placeholder="Enter your City"/>
                 </div>
                 <div>
                     <label htmlFor="pincode"  >Zip Code*:</label>
-                    <input class="input_donate"  required id="zip_code" name="zip_code" type="number" placeholder="000000"/>
+                    <input className="input_donate"  required id="zip_code" name="zip_code" type="number" placeholder="000000"/>
                 </div>
             </div>
     
@@ -51,7 +51,7 @@ export default function Donate() {
     
                 <div>
                     <label htmlFor="state" >State*:</label>
-                    <input  class="input_donate" required id="state" name="state" type="text" placeholder="Enter your State"/>
+                    <input  className="input_donate" required id="state" name="state" type="text" placeholder="Enter your State"/>
                 </div>
     
     
@@ -60,14 +60,14 @@ export default function Donate() {
     
                 <div>
                     <label htmlFor="country"  >Country*:</label>
-                    <input  class="input_donate" required id="country" name="country" type="text" placeholder="  Enter your Country"/>
+                    <input  className="input_donate" required id="country" name="country" type="text" placeholder="  Enter your Country"/>
                 </div>
 
             </div>
             <div className="sec">
                 <div>
                     <label htmlFor="amountinfigures"  >Amount in figures*(in Rs):</label>
-                    <div><input  class="input_donate" required  id="amountinfigures" name="amountinfigures" type="number" placeholder="  Figures"/></div>
+                    <div><input  className="input_donate" required  id="amountinfigures" name="amountinfigures" type="number" placeholder="  Figures"/></div>
                 </div>
                 <div>
                     <label htmlFor="type">Payment method: </label>

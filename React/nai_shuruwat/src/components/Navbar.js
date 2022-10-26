@@ -8,7 +8,7 @@ function Navbar() {
                 <div id="logo">
                     <img src={Logo} alt="Nai Shuruwat"/>
                     <p>Nai shurwat</p>
-                </div>
+                   </div>
                 <ul id="navlinks">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to ="/about">About Us</Link></li>
