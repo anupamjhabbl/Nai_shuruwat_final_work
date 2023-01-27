@@ -124,8 +124,68 @@ body{
 .s>div>details>p{
     font-size:18px;
     font-weight: 500;
-    
-    
-    
-    
 }
+
+.question_form{
+    margin: auto;
+    margin-top: 200px;
+    width:510px;
+    padding-left:0px;
+    margin-left:53vw;
+    margin-bottom:50px;
+}
+
+.ques_label{
+    display:block;
+    font-family: cursive;
+}
+
+.question_form_email{
+    width:500px;
+    height:30px;
+    border:2px solid black;
+    border-radius:5px;
+    outline:0px;
+    margin:5px;
+    font-family: cursive;
+
+}
+
+.question_form_question{
+    width:500px;
+    height: 160px;
+    border:2px solid black;
+    border-radius:5px;
+    outline:0px;
+    margin:5px;
+    font-family: cursive;
+}
+
+.question_head{
+    text-align: center;
+    margin:40px;
+}
+
+#question_submit{
+    display:block;
+    width:190px;
+    height:35px;
+    border-radius: 5px;
+    margin:auto;
+    margin-top:30px;
+    background-color:black;
+    color:white;
+    font-family: cursive;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+#question_submit:hover {
+    background-color: #595e5c;
+    box-shadow: 0px 15px 20px rgba(120, 122, 121, 0.4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+  }
+
+
+

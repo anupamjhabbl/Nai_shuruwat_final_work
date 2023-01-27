@@ -24,7 +24,7 @@ class Volunteer_form extends React.Component{
                     </div>
 
                     
-                    <form action="/volunteer_form" method="GET">
+                    <form action="/volunteer_form" method="GET" id="form">
                         
                         <div>
                             <label className="label" htmlFor="name1">First Name*</label>

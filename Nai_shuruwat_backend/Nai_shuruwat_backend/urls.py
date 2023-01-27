@@ -18,7 +18,6 @@ from django.urls import path, include
 from Home import urls
 from Home import views
 
-
 admin.site.site_header = "Nai_Shuruwat"
 admin.site.site_title = "Nai_shuruwat"
 admin.site.index_title = "Nai_Shuruwat"
@@ -26,9 +25,12 @@ admin.site.index_title = "Nai_Shuruwat"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('list/', views.HelpList.as_view()),
-    path('checklist/',views.CheckList.as_view()),
-    path('checkupdate/<int:pk>/',views.CheckUpdateView.as_view()),
-    path('checkcreate/',views.CheckCreateView.as_view()),
+    path('checklist/', views.CheckList.as_view()),
+    path('checkupdate/<int:pk>/', views.CheckUpdateView.as_view()),
+    path('checkcreate/', views.CheckCreateView.as_view()),
+    path('questionlist/', views.QuestionList.as_view()),
+    path('questionupdate/<int:pk>/', views.QuestionUpdateView.as_view()),
+    path('questioncreate/', views.QuestionCreateView.as_view()),
     path('', include ('Home.urls')),
 
 ]

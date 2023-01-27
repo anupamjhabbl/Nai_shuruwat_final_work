@@ -115,6 +115,19 @@ export const Question = () => {
 
         </div>
     </div>
+    <div class = "question_form">
+        <h2 class="question_head">Write your Question Here</h2>
+        <form action="/question_form" method = 'GET'>
+            <label htmlFor="question_form_email" class="ques_label" >Email</label>
+            <input type="email" id="question_form_email" name="question_form_email" class="question_form_email"/>
+            <div class="question_div">
+            <label htmlFor="question_form_question" class="ques_label">Your question</label>
+            <textarea name="question_form_question" cols="100" rows="10" required class="question_form_question"></textarea>
+
+            </div>
+            <button id="question_submit" type="submit">Submit</button>
+        </form>
+    </div>
 
     
     </>

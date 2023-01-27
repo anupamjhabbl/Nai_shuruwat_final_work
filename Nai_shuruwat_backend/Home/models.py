@@ -38,4 +38,11 @@ class Check(models.Model):
     volunteer_experience = models.TextField(default="Pata Nahi",null=True)
 
 
+class Question(models.Model):
+    user_email = models.EmailField(max_length=250, default="none@gmail.com", null=True)
+    user_question = models.TextField(default="Pata Nahi", null=True)
+
+    def __str__(self):
+        return self.user_email
+
 

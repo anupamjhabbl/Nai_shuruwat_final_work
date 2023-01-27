@@ -1,9 +1,11 @@
 from django.shortcuts import render, HttpResponse
 from Home.models import Help
 from Home.models import Check
+from Home.models import Question
 from Home.serializers import HelpSerializer
 from Home.serializers import CheckSerializer
 from rest_framework.generics import ListAPIView,RetrieveAPIView,CreateAPIView,UpdateAPIView
+from Home.serializers import QuestionSerializer
 from rest_framework import viewsets
 from datetime import datetime
 
@@ -43,12 +45,27 @@ class CheckUpdateView(UpdateAPIView):
     serializer_class = CheckSerializer
 
 
+class QuestionList(ListAPIView):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
+
+class QuestionDetailView(RetrieveAPIView):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
+
+class QuestionCreateView(CreateAPIView):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
+
+class QuestionUpdateView(UpdateAPIView):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
 
 
 
 
 def index(request):
-    return render(request,'index.html');
+    return render(request, 'index.html');
     # return HttpResponse("Hello")
 
 def help_form_submit(request):
@@ -83,8 +100,16 @@ def volunteer_submit(request):
         available_at = request.GET.get('Available_at')
         interested_for = request.GET.get('Interested_for')
         experience_value = request.GET.get('experience')
-        check = Check(volunteer_fname=val1, volunteer_lname=val2,volunteer_gender=gender,volunteer_age=age,volunteer_home_number=home,volunteer_city=city,volunteer_state=state,volunteer_pincode=pin,volunteer_phone=phone,volunteer_email=email,volunteer_date=date,volunteer_interested_at=interested_at,volunteer_available_at=available_at,volunteer_interested_for=interested_for,volunteer_experience=experience_value);
+        check = Check(volunteer_fname=val1, volunteer_lname=val2, volunteer_gender=gender,volunteer_age=age,volunteer_home_number=home,volunteer_city=city,volunteer_state=state,volunteer_pincode=pin,volunteer_phone=phone,volunteer_email=email,volunteer_date=date,volunteer_interested_at=interested_at,volunteer_available_at=available_at,volunteer_interested_for=interested_for,volunteer_experience=experience_value);
         check.save()
         return render(request,'index.html')
+
+def question_form(request):
+    if request.method == 'GET':
+        question_val1 = request.GET.get('question_form_email')
+        question_val2 = request.GET.get('question_form_question')
+        question = Question(user_email=question_val1, user_question=question_val2)
+        question.save()
+        return render(request, 'index.html');
 
 
